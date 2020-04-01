@@ -20,7 +20,7 @@ const config = {
 				},
 				{
 					"type": "mkdir",
-					"target": "cardinal_dist"
+					"target": "app"
 				}
 			]
 		}
