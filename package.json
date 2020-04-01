@@ -1,0 +1,25 @@
+{
+  "name": "dossier-builder",
+  "version": "1.0.0",
+  "description": "cli tool to set up dossier development environment",
+  "main": " ",
+  "scripts": {
+    "postinstall": "",
+    "init-dossier": "",
+    "init-ssapp": "",
+    "update-privatesky": "",
+    "update-cardinal": "",
+    "build": "",
+    "release": ""
+  },
+  "keywords": [
+    "dossier",
+    "cli",
+    "env"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "updater": "git+http://github.com/privatesky/updater"
+  }
+}
