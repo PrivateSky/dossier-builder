@@ -1,1 +1,8 @@
 node_modules
+/latest-change-set.txt
+/app
+/domain
+/loader
+/node_modules
+/psk-release
+/temp
