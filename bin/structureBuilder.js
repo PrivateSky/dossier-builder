@@ -21,7 +21,11 @@ const config = {
 				{
 					"type": "mkdir",
 					"target": "app"
-				}
+				},
+                {
+                    "type": "mkdir",
+                    "target": "loader"
+                }
 			]
 		}
 	]

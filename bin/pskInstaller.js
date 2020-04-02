@@ -15,19 +15,33 @@ const config = {
 					"target": "latest-change-set.txt"
 				},
 				{
-					"type":"remove",
-					"target": "psk-release/.git"
-				},
-				{
 					"type":"executeAsync",
 					"cmd": "echo 'install process will take a while. please wait...'"
 				},
 				{
 					"type":"executeAsync",
-					"cmd": "echo cd psk-release && npm install"
+					"cmd": "cd psk-release && npm install"
 				}
 			]
-		}
+		},
+        {
+            "name": "loader",
+            "src": "https://github.com/PrivateSky/web-dossier-loader.git",
+            "actions":[
+                {
+                    "type": "smartClone",
+                    "target": "."
+                },
+                {
+                    "type":"remove",
+                    "target": "loader/.git"
+                },
+                {
+                    "type":"executeAsync",
+                    "cmd": "cd loader && npm install"
+                }
+            ]
+        }
 	]
 };
 
